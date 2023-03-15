@@ -1,3 +1,25 @@
-site_name: My Docs
+site_name: C's Blog
+extra:
+  homepage: https://cyb333.top
+  generator: false
 theme:
   name: material
+  features:
+    - navigation.tracking
+    - navigation.tabs
+  logo: img/home.svg
+  favicon: img/smail.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+copyright: 
+  <a href="https://beian.miit.gov.cn/">豫ICP备2021000629号-2</a> &copy; 2020 - 2023 Chen YB
