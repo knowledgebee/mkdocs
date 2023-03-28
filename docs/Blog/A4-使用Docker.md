@@ -99,3 +99,5 @@ Docker的 *run* 命令有较多的可选操作和参数，命令中的参数 *`<
 \* *当/etc/docker目录下的 `daemon.json` 文件格式不正确时 Docker 是不能启动的*
 
 \* 直接将 volume 直接复制到 Docker 目录下需要在 Docker 中执行创建同名 volume
+
+\* entrypoint.sh 需要注意换行标记，CRLF (Windows) 和 LF (Linux) 是不一样的，否则会造成容器无法启动
