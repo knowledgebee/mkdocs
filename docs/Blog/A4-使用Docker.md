@@ -82,15 +82,19 @@ Docker的 *run* 命令有较多的可选操作和参数，命令中的参数 *`<
 
 ***
 
-在使用 Docker 时，启动容器时有个性化需求时需要指定很多参数，启动一个容器简单，但是要启动多个容器每个都要指定许多参数是非常麻烦的。我们可以使用 Docker 官方的容器编排工具 Docker-Compose (需要安装) 实现快速批量启动容器。
+在使用 Docker 时，启动容器时有个性化需求时需要指定很多参数，启动一个容器简单，但是要启动多个容器每个都要指定许多参数是非常麻烦的。我们可以使用 Docker 官方的容器编排工具 Docker Compose (需要安装) 实现快速批量启动容器。
 
-使用 Docker-Compose 需要编写 *`docker-compose.yaml`* 文件，启动十分简单：
+使用 Docker Compose 需要编写 *`docker compose.yaml`* 文件或者 *`compose.yaml`* 文件，启动十分简单：
 
-> *docker-compose up -d*
+> *docker compose up -d*
 
 在启动之后，文件中所指定的的参数会自动生成，不再需要手动创建，关闭也同样简单：
 
-> *docker-compose down*
+> *docker compose down*
+
+当需要修改更新编排容器的镜像时，操作同样简单，修改 *`compose.yaml`* 文件后执行以下命令即可：
+
+> *docker compose pull && docker compose up -d*
 
 ### **Notice**
 
