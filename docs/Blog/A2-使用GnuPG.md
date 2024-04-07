@@ -10,7 +10,7 @@ tags:
 
 <!--more-->
 
-GnuPG 是一个开源软件，开源协议为 GNU General Public License，在学习 GnuPG 如何使用前可以先了解一下公钥体系和 GnuPG 的加密{% post_link A1-公钥体系 原理 %}。
+GnuPG 是一个开源软件，开源协议为 GNU General Public License，在学习 GnuPG 如何使用前可以先了解一下[公钥体系](A1-公钥体系.md)和加密原理。
 
 GnuPG 支持多平台，在 Linux 平台为 GnuPG，在 Windows 平台为 Gpg4win，GnuPG 平台为 CLI (命令行操作)，Gpg4win 支持 CLI 和 GUI (图形化操作)。
 
