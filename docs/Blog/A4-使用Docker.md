@@ -100,7 +100,7 @@ Docker的 *run* 命令有较多的可选操作和参数，命令中的参数 *`<
 
 ***
 
-\* *当/etc/docker目录下的 `daemon.json` 文件格式不正确时 Docker 是不能启动的*
+\* *当/etc/docker目录下的 `daemon.json` 文件格式不正确时 Docker 将无法启动*
 
 \* 直接将 volume 直接复制到 Docker 目录下需要在 Docker 中执行创建同名 volume
 
